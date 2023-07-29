@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "b2-hm2"
+version = "0.1.0"
+description = ""
+authors = ["Vadim-3 <128088822+Vadim-3@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "b2_hm2"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyowm = "^3.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
