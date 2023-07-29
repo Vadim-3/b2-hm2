@@ -9,6 +9,7 @@ packages = [{include = "b2_hm2"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 pyowm = "^3.3.0"
+prompt-toolkit = "^3.0.39"
 
 
 [build-system]
