@@ -23,4 +23,4 @@ COPY . .
 EXPOSE 5000
 
 # Запустимо наш застосунок всередині контейнера
-CMD ["python", "app.py"]
+CMD ["python", "Console-assistant/console-assistant/main.py"]
